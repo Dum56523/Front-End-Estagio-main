@@ -78,7 +78,7 @@ A estrutura dos arquivos foi feita na seguinte maneira:
  <img width='260px' src='src/toreadme/login.png'>
  <img width='260px' src='src/toreadme/home_page.png'>
  <img width='260px' src='src/toreadme/perfil.png'>
- <img width='240px  src='src/toreadme/alteracaodedados.png'>
+ <img width='240px'  src='src/toreadme/alteracaodedados.png'>
  </p>
  
 ##  Considerações finais
