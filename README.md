@@ -85,7 +85,7 @@ A estrutura dos arquivos foi feita na seguinte maneira:
  
 ##  Considerações finais
 
-<p> Gostaria de agradecer pela oportunidade de participar desse processo seletivo, foi a primeira vez que fiz uma aplicação desse tipo, e me fez aprender muita coisa mais uma vez agradeço pela oportunidade</p>
+<p> Gostaria de agradecer pela oportunidade de participar desse processo seletivo.</p>
 
 
 ## Autor
