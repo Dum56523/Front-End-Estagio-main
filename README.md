@@ -16,16 +16,16 @@ Tabela de conteúdos
 </p>
 
 ## Objetivo
-<p>Essa aplicação consiste em um cadastro de usuário web onde ele possa se cadastrar,logar,ver seus dados e alterar seus dados.</p>
+<p>Essa aplicação consiste em um cadastro de usuário web onde ele possa se cadastrar, logar, ver seus dados e alterar seus dados.</p>
 
 ## Tecnologias 
-##### HTML  
-##### CSS3 
-##### PYTHON 
-##### FLASK 
-##### PHPMYADMIN
-##### FLASK_MYSQLDB
-##### WAMPSERVER
+##### • HTML  
+##### • CSS3 
+##### • PYTHON 
+##### • FLASK 
+##### • PHPMYADMIN
+##### • FLASK_MYSQLDB
+##### • WAMPSERVER
 
 ## Estrutura dos arquivos
 A estrutura dos arquivos foi feita na seguinte maneira:
