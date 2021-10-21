@@ -17,6 +17,7 @@ mysql= MySQL(app)
 def a():
     return redirect(url_for('login'))
 
+#leva para página de login possibilitando que p usuário faça o login com email não soube fazer a autenticação com cpf e pis mas apresentei os campos
 @app.route('/login/', methods=['POST','GET'])
 def login():
     msg = ''
@@ -35,7 +36,7 @@ def login():
             msg = 'Email/senha Incorretos!'
     return render_template('login.html', msg=msg)
 
-
+# quando o botão de logout é acionado na navtop leva o usuário á pagina de login
 @app.route('/login/logout')
 def logout():
    session.pop('loggedin', None)
@@ -43,6 +44,7 @@ def logout():
    session.pop('email', None)
    return redirect(url_for('login'))
 
+# cadastra o usuário e guarda suas informações no banco de dados
 @app.route('/login/cadastro', methods=['GET','POST'])
 def cadastro():
     msg=''
@@ -78,7 +80,7 @@ def cadastro():
         msg = 'Por favor, preencha o formulário!'
     return render_template('cadastro.html', msg=msg)
     
-
+#verifica se o usuario está logado e apresenta o seu nome
 @app.route('/login/home')
 def home():
     if 'loggedin' in session:
@@ -88,6 +90,7 @@ def home():
         return render_template('home.html', conta=conta)
     return redirect(url_for('login'))
 
+#puxa as informações do usuário no banco de dados e apresenta na página de perfil
 @app.route('/login/profile')
 def profile():
     if 'loggedin' in session:
@@ -97,7 +100,7 @@ def profile():
         return render_template('profile.html', conta=conta)
     return redirect(url_for('login'))
 
-
+#renderiza os dados do cliente para poder fazer a alteração
 @app.route('/login/alteracao/', methods=['GET','POST'])
 def alteracao():
     if 'loggedin' in session:
@@ -106,6 +109,7 @@ def alteracao():
         conta = cursor.fetchone()
         return render_template('alteracao.html', conta=conta)
 
+#altera os dados do usuário e salva no banco de dados
 @app.route('/login/update/', methods=['GET','POST'])
 def update():
     if request.method =='POST':
@@ -130,4 +134,4 @@ def update():
 if __name__ == '__main__':
     app.run(debug=True) 
 
-
+#utilizei o flask para fazer a aplicação fiz tudo que consegui espero estar do agrado de vocês, foi minha primeira aplicação, aprendi muita coisa e gostaria de agradeçer pela oportunidade.
