@@ -1,4 +1,4 @@
-# Front-End-Estagio-Cadastro-WEB
+# Front-End-Estágio-Cadastro-WEB
 
 
 Tabela de conteúdos
@@ -6,7 +6,7 @@ Tabela de conteúdos
 <p align="center">
  <a href="#objetivo">Objetivo</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#estrutura-dos-arquivos">Estrutura Dos arquivos</a> • 
+ <a href="#estrutura-dos-arquivos">Estrutura dos arquivos</a> • 
  <a href="#imagens-utilizadas-na-aplicação">Imagens utilizadas na aplicação</a> • 
  <a href="#imagens-da-aplicação">Imagens da aplicação</a> • 
  <a href="https://cadastrousuarioweb.herokuapp.com/login/">Heroku</a> •
@@ -16,7 +16,7 @@ Tabela de conteúdos
 </p>
 
 ## Objetivo
-<p>Essa aplicação consiste em um cadastro de usuário web onde ele possa se cadastrar, logar, ver seus dados e alterar seus dados.</p>
+<p>Essa aplicação consiste em um cadastro de usuário web onde se pode: cadastrar, logar, visualizar e alterar os dados da base cadastral.</p>
 
 ## Tecnologias 
 ##### • HTML  
@@ -28,7 +28,7 @@ Tabela de conteúdos
 ##### • WAMPSERVER
 
 ## Estrutura dos arquivos
-A estrutura dos arquivos foi feita na seguinte maneira:
+A estrutura dos arquivos foi feita da seguinte forma:
 
 ```bash
 
@@ -72,7 +72,7 @@ A estrutura dos arquivos foi feita na seguinte maneira:
  <img width='260px' src='static/css3/style1.jpg'>
  <img width='260px' src='static/css3/style2.jpg'>
 </p>
-<h6> Reservo todos os direitos de imagem há empresa pontotel<h6>
+<h6> Todos os direitos de imagem são reservados à empresa Pontotel<h6>
 
 ## Imagens da aplicação
 <p align="center">
